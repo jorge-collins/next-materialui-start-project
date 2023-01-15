@@ -1,8 +1,12 @@
+import { Layout } from "@/components/layouts";
 import { Typography } from "@mui/material";
 
 const HomePage = () => {
   return (
-    <Typography variant='h1'>Hola Mundo</Typography>
+    <Layout title='Next, MaterialUI - Base project'>
+
+        <Typography variant='h1'>Hola Mundo</Typography>
+    </Layout>
   )
 }
 
