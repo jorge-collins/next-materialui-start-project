@@ -1,6 +1,7 @@
 import { Box } from '@mui/material';
 import { padding } from '@mui/system';
 import Head from 'next/head';
+import { Navbar } from '../ui';
 
 export const Layout = ({ title = 'Initial Project', children }) => {
     return (
@@ -9,7 +10,7 @@ export const Layout = ({ title = 'Initial Project', children }) => {
                 <title>{ title }</title>
             </Head>
 
-            {/* Navbar */}
+            <Navbar />
 
             <Box sx={{ padding: '10px 20px' }}>
                 { children }
